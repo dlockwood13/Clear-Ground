@@ -332,6 +332,94 @@ const MIT=[
   {h:"Treat 'leave' as a legitimate strategy",p:"Staying isn't a measure of strength, and leaving isn't failure. Quietly updating your CV and lining up options restores agency even if you never use them. Sometimes the healthiest escalation is the door."}
 ];
 
+/* ============ OCCUPATIONAL PSYCHOLOGY FOUNDATIONS (BPS knowledge areas) ============ */
+const FOUND=[
+  {id:"assess", title:"Psychological Assessment at Work",
+   scope:"Using fair, standardised, evidence-based methods to measure individual differences — ability, personality, values and behaviour — for selection, development and performance appraisal.",
+   theories:[
+     {n:"Reliability & validity", d:"the twin tests of any good measure: does it measure consistently, and does it measure what it claims to?"},
+     {n:"The Five-Factor Model", d:"the 'Big Five' personality traits most personality tools are built on (OCEAN)."},
+     {n:"General mental ability", d:"cognitive ability is the single strongest predictor of job performance across roles (Schmidt & Hunter)."},
+     {n:"Structured interviews", d:"standardised questions and scoring predict performance far better than informal chats."},
+     {n:"Assessment centres", d:"multiple exercises and assessors combined to reduce individual bias."},
+     {n:"Adverse impact", d:"checking whether a method unfairly disadvantages a protected group."}
+   ],
+   practice:"Designing and validating selection processes, psychometric testing, 360-degree feedback and competency frameworks.",
+   connect:"Toxic cultures often weaponise assessment — biased appraisals, vanity metrics, or forced 'rank-and-yank' systems that pit colleagues against each other. Fair, transparent assessment is itself a marker of psychological safety."},
+  {id:"ltd", title:"Learning, Training and Development",
+   scope:"How adults learn at work, and how to design, deliver and evaluate development so it actually transfers back to the job.",
+   theories:[
+     {n:"Kolb's learning cycle", d:"learning as experience, then reflection, conceptualisation and experimentation."},
+     {n:"ADDIE", d:"a design framework: Analyse, Design, Develop, Implement, Evaluate."},
+     {n:"Kirkpatrick's four levels", d:"evaluating training by reaction, learning, behaviour change and results."},
+     {n:"Transfer of training", d:"the gap between learning a skill and using it — much training never reaches the job."},
+     {n:"Self-efficacy", d:"belief in one's ability to succeed strongly shapes whether learning sticks (Bandura)."},
+     {n:"Learning organisation", d:"organisations that learn and adapt continuously (Senge)."}
+   ],
+   practice:"Training needs analysis, instructional design, coaching, leadership development and evaluating return on investment.",
+   connect:"Watch for 'development' used as window-dressing, or quietly as punishment. A genuine learning culture creates 'learner safety' — the freedom to ask, try and fail without humiliation."},
+  {id:"lead", title:"Leadership, Engagement and Motivation",
+   scope:"What makes leadership effective, and what genuinely drives people's engagement and motivation at work.",
+   theories:[
+     {n:"Transformational leadership", d:"inspiring and developing people, versus simple transaction and reward (Bass)."},
+     {n:"Leader-Member Exchange", d:"leaders form closer 'in-groups' and distant 'out-groups' — a root of favouritism."},
+     {n:"Self-Determination Theory", d:"motivation thrives on autonomy, competence and relatedness (Deci & Ryan)."},
+     {n:"Herzberg's two factors", d:"'hygiene' factors prevent dissatisfaction; 'motivators' create satisfaction."},
+     {n:"Expectancy theory", d:"effort depends on believing it leads to performance, reward, and something valued (Vroom)."},
+     {n:"Work engagement", d:"vigour, dedication and absorption — the positive opposite of burnout."}
+   ],
+   practice:"Leadership development, engagement surveys, motivation and reward design, and executive coaching.",
+   connect:"Fear-based, abusive management is the mirror image of this. LMX explains the 'in-crowd' dynamics of relational inequality, and Self-Determination Theory explains exactly why micromanagement — stripping autonomy — drains people."},
+  {id:"wellbeing", title:"Wellbeing and Work",
+   scope:"How work shapes health and wellbeing — stress, burnout, bullying and harassment — and how to prevent harm and help people thrive. This is the area at the heart of this app.",
+   theories:[
+     {n:"Job Demands-Resources (JD-R)", d:"strain rises when job demands outweigh the resources to meet them."},
+     {n:"Demand-Control-Support", d:"the worst strain comes from high demands with low control and low support (Karasek)."},
+     {n:"Effort-Reward Imbalance", d:"high effort met with low reward or recognition damages health (Siegrist)."},
+     {n:"Burnout", d:"exhaustion, cynicism and reduced efficacy from chronic workplace stress (Maslach)."},
+     {n:"Conservation of Resources", d:"stress comes from losing, or fearing the loss of, valued resources (Hobfoll)."},
+     {n:"Primary / secondary / tertiary", d:"fix the source first, before coping, before treatment."}
+   ],
+   practice:"Stress risk assessment, wellbeing strategy, psychological-safety audits, EAPs and return-to-work support.",
+   connect:"The 'Toxic Five' map cleanly onto resource depletion under JD-R. It also explains why resilience apps alone fail: they are tertiary, individual-level fixes for a primary, organisational problem — which is the core message of this app."},
+  {id:"design", title:"Work Design, Organisational Change & Development",
+   scope:"How jobs, roles and whole organisations are structured, and how change and culture are managed.",
+   theories:[
+     {n:"Job Characteristics Model", d:"good jobs have variety, identity, significance, autonomy and feedback (Hackman & Oldham)."},
+     {n:"Job crafting", d:"employees reshaping their own roles to add meaning and fit (Wrzesniewski & Dutton)."},
+     {n:"Lewin's change model", d:"unfreeze the status quo, make the change, then refreeze the new norm."},
+     {n:"Kotter's 8 steps", d:"a sequenced approach to leading large-scale change."},
+     {n:"Schein's culture model", d:"culture has three layers: visible artefacts, stated values, and hidden assumptions."},
+     {n:"Team psychological safety", d:"a shared belief the team is safe for interpersonal risk-taking (Edmondson)."}
+   ],
+   practice:"Job redesign, restructuring, culture-change programmes and organisational development interventions.",
+   connect:"Poorly managed change is one of the six HSE stress drivers. Schein's model explains 'enchantment': the values poster on the wall ('we're a family') means nothing if the hidden assumptions reward fear and silence."},
+  {id:"research", title:"Research Design & Analytical Techniques",
+   scope:"The scientist's backbone — designing rigorous studies and analysing data so decisions rest on evidence rather than opinion or fashion.",
+   theories:[
+     {n:"Research designs", d:"experimental, longitudinal and cross-sectional, each with different strengths."},
+     {n:"Validity", d:"internal (cause), external (generalises) and construct (measures the right thing)."},
+     {n:"Quantitative methods", d:"regression, factor analysis, structural equation and multilevel modelling."},
+     {n:"Qualitative methods", d:"thematic analysis, IPA and grounded theory for meaning and experience."},
+     {n:"Meta-analysis", d:"statistically combining many studies to find the overall effect."},
+     {n:"Effect size", d:"how big an effect is, not just whether it is statistically 'significant'."}
+   ],
+   practice:"Designing evaluations and surveys, analysing organisational data, and validating assessment tools.",
+   connect:"This separates evidence-based culture work from expensive fads. It is also the discipline behind good documentation: defensible data, gathered carefully, is far harder to dismiss."},
+  {id:"apply", title:"Applying Psychology to Work & Organisations",
+   scope:"The integrative, professional-practice area that ties the others together — how psychology is actually applied, ethically and effectively, in real organisations.",
+   theories:[
+     {n:"Scientist-practitioner model", d:"practising from evidence while feeding practice back into the science."},
+     {n:"Evidence-based practice", d:"combining best evidence, expertise, stakeholder concerns and context (Briner & Rousseau)."},
+     {n:"The consultancy cycle", d:"entry, contracting, diagnosis, intervention, evaluation and exit."},
+     {n:"Systems thinking", d:"seeing problems as products of the whole system, not isolated individuals."},
+     {n:"Professional ethics", d:"the BPS and HCPC standards that govern competent, ethical practice."},
+     {n:"The change-agent role", d:"the practitioner as a careful, accountable agent of organisational change."}
+   ],
+   practice:"Combining all of the above into diagnosis, intervention and evaluation, as a consultant or in-house practitioner.",
+   connect:"This is the meta-frame of the whole app: real change in a toxic culture takes systemic, ethical, evidence-based practice — not a quick fix, a poster, or a wellbeing app handed out in place of structural change."}
+];
+
 /* ============ STATUS / REGION DATA ============ */
 const STATUS_LABEL = { employee:"Employee", worker:"Worker", selfemployed:"Self-employed / contractor", notsure:"Status not set" };
 const REGION_LABEL = { gb:"England, Wales & Scotland", ni:"Northern Ireland" };
@@ -431,7 +519,7 @@ const Store={
 };
 
 /* ============ STATE ============ */
-const S={ tab:"home", learn:"understand", act:"escalate", answers:{}, submitted:false,
+const S={ tab:"home", learn:"understand", act:"escalate", answers:{}, submitted:false, found:null,
   entries:[], formOpen:false,
   profile:{region:null,status:null,onboarded:false},
   onb:{region:null,status:null},
