@@ -1,4 +1,4 @@
-const C = "clear-ground-v1";
+const C = "clear-ground-v2";
 const ASSETS = ["./", "./index.html"];
 
 self.addEventListener("install", e => {
